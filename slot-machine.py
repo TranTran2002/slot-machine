@@ -1,26 +1,23 @@
-#slot-machine.py
 import random
 from symtable import Symbol
 
-MAX_LINE = 3
-MAX_BET = 100
+MAX_LINE = 5
+MAX_BET = 10000
 MIN_BET = 1
+ROWS = 5
+COLS = 5
 
-ROWS = 3
-COLS = 3
-
-Symbol_count = {
-    "A": 2,
-    "B": 4,
-    "C": 6,
-    "D": 8
+symbol_count = {
+    "A": 1,
+    "B": 2,
+    "C": 3,
+    "D": 4
     
 }
 
-Symbol_value = {
-    "A": 3,
-    "B": 4,
-    "C": 3,
-    "D": 2
+symbol_value = {
+    "A": 4,
+    "B": 3,
+    "C": 2,
+    "D": 1
 }
-
