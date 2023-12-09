@@ -1,3 +1,4 @@
+#slot-machine.py
 import random
 from symtable import Symbol
 
@@ -21,6 +22,7 @@ symbol_value = {
     "C": 2,
     "D": 1
 }
+
 
 
 def check_winnings(columns, lines, bet, values):
@@ -72,7 +74,7 @@ def print_slot_machine(columns):
 
 def deposit():
     while True:
-        amount = input("What would you like to deposit? $")
+        amount = input("How much would you like to deposit? $")
         if amount.isdigit():
             amount = int(amount)
             if amount > 0:
@@ -124,7 +126,7 @@ def spin(balance):
 
         if total_bet > balance:
             print(
-                f"You do not have enough to bet that amount, your current balance is: ${balance}")
+                f"You're broke please deposit more to bet, your current balance is: ${balance}")
         else:
             break
 
