@@ -1,7 +1,7 @@
 import random
 from symtable import Symbol
 
-MAX_LINE = 5
+MAX_LINES = 5
 MAX_BET = 10000
 MIN_BET = 1
 ROWS = 5
