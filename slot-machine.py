@@ -12,15 +12,17 @@ symbol_count = {
     "A": 1,
     "B": 2,
     "C": 3,
-    "D": 4
+    "D": 4,
+    "E": 5
     
 }
 
 symbol_value = {
-    "A": 4,
-    "B": 3,
-    "C": 2,
-    "D": 1
+    "A": 5,
+    "B": 4,
+    "C": 3,
+    "D": 2,
+    "E": 1
 }
 
 
@@ -150,7 +152,7 @@ def main():
             break
         balance += spin(balance)
 
-    print(f"You left with ${balance}")
+    print(f"You have left ${balance}")
 
 
 main()
